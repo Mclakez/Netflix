@@ -1,0 +1,863 @@
+
+* {
+ 				padding: 0px;
+ 				margin: 0px;
+ 				box-sizing: border-box;
+ 				font-size: 62.5%;
+ 				background: #000000;
+ 				
+ }
+ 
+ .tablet {
+     display: none;
+ }
+ 
+ body {
+     position: relative;
+     font-family: "Poppins", sans-serif;
+ }
+
+.cover {
+    position: relative;
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+    top: 0px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    z-index: 2;
+}
+
+header img {
+    width: 30rem;
+    background: transparent;
+}
+
+header button {
+    background: #ff0a00d3;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+}
+
+.section-1 {
+    min-height: 66rem;
+    height: 100%;
+    padding-top: 7.5rem;
+    padding-bottom: 3rem;
+    background: transparent;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.first {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.second {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.second img {
+    object-fit: cover;
+    transform: scale(1.1) translateY(-10%);
+    height: 100%;
+    width: 100%;
+}
+
+.gradient {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8)0px, rgba(0,0,0,0)60%, rgba(0,0,0,0.8)100%);
+    
+}
+
+.section1-content {
+    position: relative;
+    background: transparent;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.section1-content h1{
+    font-size: 7rem;
+    display: inline-block;
+    background: transparent;
+}
+
+.section1-content .watch {
+    font-size: 2.8rem;
+    margin-top: 2.5rem;
+    background: transparent;
+}
+
+.section1-content .subtitle {
+    font-size: 2.2rem;
+    margin-top: 2.5rem;
+    background: transparent;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+    background: transparent;
+}
+
+.form-div{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+   
+}
+
+.form-div input {
+    width: 60%;
+    padding: 2.5rem 2rem;
+    border: 1px solid gray;
+    outline: none;
+    background-color: rgba(0,0,0,0.5);
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+::placeholder {
+    font-size: 2rem;
+}
+
+.form-div .button {
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+
+.form-div button {
+    background: #ff0a00d3;
+    border: none;
+    outline: none;
+    font-size: 2.4rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem 1.8rem;
+    
+}
+
+.form-div button i {
+    background: transparent;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.bottom-line {
+    width: 100%;
+    height: 1rem;
+    position: relative;
+    bottom: 0rem;
+    left: 0;
+    z-index: 6;
+    background: #333;
+}
+
+#bottom-line1 {
+    position: absolute;
+    bottom: 3rem;
+}
+
+.section-2 {
+    
+    width: 100%;
+    position: relative;
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    min-height: 58rem;
+    padding: 0 8rem;    
+}
+
+.section-2 .left {
+    flex-basis: 50%;
+}
+
+.section-2 .right {
+    flex-basis: 50%;
+    position: relative;
+}
+
+.section-2 .right .video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 46%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    background: transparent;
+    transform: translate(-50%,-50%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 0;
+}
+
+.section-2 .right .video video {
+    z-index: 9;
+}
+
+
+.section-2 .right img {
+    width: 100%;
+    z-index: 100;
+}
+
+
+h2 {
+    font-size: 7rem;
+}
+
+p {
+    font-size: 2.8rem;
+}
+
+.section-3 {
+    position: relative;
+    width: 100%;
+    min-height: 35rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.section-3 .left {
+    flex-basis: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 .left .mobile {
+    width: 100%;
+}
+
+.section-3 .right {
+    flex-basis: 50%;
+}
+
+.mobile-box {
+    height: 13.5rem;
+    width: 40rem;
+    background: black;
+    border: 2px solid gray;
+    border-radius: 0.9rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.2rem;
+}
+
+.mobile-box img {
+    width: 8rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.mobile-box .loading {
+    display: flex;
+    align-items: center;
+}
+
+.loading p {
+    font-size: 2rem;
+}
+
+.loading span {
+    font-size: 1.4rem;
+    color: #006cff;
+}
+
+.gif {
+    background-color: black;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-position: center;
+    width: 5rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.section-4 {
+    position: relative;
+    min-height: 58rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.section-4 .right {
+    flex-basis: 50%;
+}
+
+.section-4 .right img {
+    width: 100%;
+}
+
+.section-5 {
+    position: relative;
+    min-height: 58rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.section-5 .left {
+    flex-basis: 50%;
+}
+
+.section-5 .left img {
+    width: 100%;
+}
+
+
+.section-6 {
+    position: relative;
+    color: #fff;
+    min-height: 55rem;
+    padding: 10rem 10rem 0;
+}
+
+.accordion {
+    width: 100%;
+    margin: 5rem 0;
+    
+  }
+  .accordion-item {
+   margin: 1rem 0;
+  }
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  .accordion-header {
+    background-color: #333;
+    height: 100px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+  }
+  
+  .accordion-header:hover {
+      background-color: gray;
+  }
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background: #333;
+    margin-top: 0.5rem;
+    transition: 0.5s ease-in-out;
+    
+  }
+  
+  .accordion-content p {
+      background: transparent;
+      margin: 3rem 0;
+      padding: 0 2rem;
+  }
+  
+ .accordion-header i {
+      background: transparent;
+      font-size: 4.5rem;
+  }
+  
+  h3 {
+      font-size: 7rem;
+      text-align: center;
+      
+  }
+  
+  .section-6 .subtitle {
+      text-align: center;
+      margin-top: 5rem;
+  }
+  
+  .section-6 .button {
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+
+.section-6 button {
+    background: #ff0a00d3;
+    border: none;
+    outline: none;
+    font-size: 2.4rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem 1.8rem;
+    
+}
+
+.section-6 button span {
+    background: transparent;
+    font-size: 1.8rem;
+}
+
+.section-6 button i {
+    background: transparent;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+  
+  footer {
+      position: relative;
+      padding: 7rem 4rem;
+  }
+  
+ a.question-contact-link {
+      margin: 0 0 2rem 0;
+  }
+  
+  footer a {
+      color: gray;
+      font-size: 1.9rem;
+      display: inline-block;
+  }
+  
+  .footer-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      width: 80%;
+      grid-column-gap: 3.5rem;
+  }
+  
+  .footer-links .link a {
+      display: block;
+      margin: 1rem 0;
+      white-space: nowrap;
+  }
+
+select {
+    outline: none;
+    border: 2px solid gray;
+    color: gray;
+    position: relative;
+    padding: 1rem 2rem;
+    padding-left: 3rem;
+    font-size: 1.8rem;
+    border-radius: 8px;
+}
+
+.select {
+    position: relative;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.select i {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.tag {
+    color: gray;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+
+@media(max-width:71.25em){
+    h2 {
+        font-size: 5.5rem;
+    }
+    p {
+        font-size: 2.5rem;
+    }
+    
+    h3 {
+        font-size: 6rem;
+    }
+    
+    .section-3 .left {
+        flex-basis: 50%;
+    }
+    
+    .section-4 {
+        padding: 0 6rem;
+    }
+    
+    .section-5 {
+        padding: 0 3rem;
+    }
+    
+    .section-6 {
+        padding: 10rem 3rem 0;
+    }
+}
+
+@media(max-width:56.3em){
+    h2 {
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+    
+    .section-1 h1 {
+        font-size: 4.5rem;
+    }
+
+    
+    .section-1 {
+        padding-top: 6rem;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+    
+    .form-div{
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+   
+}
+
+    .form-div input {
+        width: 100%;
+    }
+    
+    .form-div .button {
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+    
+    .form-div button {
+        padding: 1.5rem 1.8rem;
+        font-weight: bold;
+    }
+    
+    .section-2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .desktop-only {
+        display: none;
+    }
+    
+    .tablet {
+        display: block;
+    }
+    
+    .section-2 .left {
+        width: 100%;
+    }
+    
+    .section-2 .right{
+        width: 100%;
+    }
+    
+    .section-3 {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .section-3 .left {
+        width: 100%;
+    }
+    
+    .section-3 .left .mobile {
+        width: 80%;
+    }
+    
+    .section-3 .right {
+        width: 100%;
+    }
+    
+    .section-4 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .section-4 .right img {
+        width: 80%;
+    }
+    
+    .section-4 .left {
+        width: 100%;
+    }
+    
+    .section-4 .right {
+        width: 100%;
+    }
+    
+    .section-5 {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .section-5 .left img {
+        width: 80%;
+    }
+    
+    .section-5 .left {
+        width: 100%;
+    }
+    
+    .section-5 .right {
+        width: 100%;
+    }
+}
+
+
+@media(max-width:31.25em){
+    header {
+        margin-top: 3rem;
+    }
+    
+    header img {
+    width: 13rem;
+}
+
+header button {
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+}
+
+.section-1 {
+    padding-top: 0rem;
+    min-height: 45rem;
+}
+
+.second img {
+    object-fit: cover;
+    transform: scale(1) translateY(-10%);
+}
+
+
+.section1-content h1{
+    font-size: 3.3rem;
+}
+
+.section1-content .watch {
+    font-size: 1.7rem;
+}
+
+.section1-content .subtitle {
+    font-size: 1.7rem;
+    margin-top: 2.5rem;
+    background: transparent;
+}
+
+.form-div{
+    flex-basis: 80%;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+   
+}
+
+    .form-div input {
+        width: 100%;
+        padding: 1.7rem 2rem;
+        font-size: 1.7rem;
+    }
+    
+    ::placeholder {
+        font-size: 1.7rem;
+    }
+    
+    .form-div .button {
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+    
+    .form-div button {
+        padding: 1.5rem 1.8rem;
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+    
+    #bottom-line1 {
+    position: absolute;
+    bottom: 5.5rem;
+}
+
+.bottom-line {
+    height: 0.7rem;
+}
+    
+    .section-2 h2 {
+        margin-top: 0.5rem;
+    }
+    
+    h2 {
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+    p {
+    font-size: 1.65rem;
+}
+
+
+    .section-2 {
+        padding: 0 1.5rem;
+        min-height: 30rem;
+        padding-bottom: 10rem;
+    }
+
+
+   .mobile-box {
+    height: 7rem;
+    width: 60%;
+    bottom: 1rem;
+}
+
+.mobile-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mobile-box img {
+    width: 3.5rem;
+    margin-right: 1rem;    
+}
+
+.mobile-box .loading {
+    display: flex;
+    align-items: center;
+}
+
+.loading p {
+    font-size: 1.3rem;
+}
+
+.loading span {
+    font-size: 1rem;
+    color: #006cff;
+}
+
+.gif {
+    background-color: black;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-position: center;
+    width: 5rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+   .section-3 {
+       padding-left: 1.3rem;
+   }
+   
+   .section-3 {
+       padding-right: 1.3rem;
+   }
+
+  .section-4 {
+    min-height: 30rem;
+    padding: 0 2rem;
+}
+
+  .section-5 {
+      min-height: 30rem;
+  }
+
+  .section-6 {
+    position: relative;
+    color: #fff;
+    min-height: 55rem;
+    padding: 5rem 2rem 0;
+}
+
+  .accordion-header {
+    height: 73px;
+    font-size: 1.7rem;
+    padding: 0 3rem;
+  }
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background: #333;
+    margin-top: 0.3rem;
+    
+  }
+  
+  .accordion-content p {
+      background: transparent;
+      font-size: 1.7rem;
+      margin: 1.7rem 0;
+      padding: 0 1.5rem;
+  }
+  
+ .accordion-header i {
+      font-size: 2.2rem;
+  }
+  
+  h3 {
+      font-size: 3rem;
+  }
+  
+    footer {
+      position: relative;
+      padding: 7rem 4rem;
+  }
+  
+ a.question-contact-link {
+      margin: 0 0 2rem 0;
+  }
+  
+  footer a {
+      color: gray;
+      font-size: 1.5rem;
+      display: inline-block;
+  }
+  
+  .footer-links {
+      width: 100%;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+
+.tag {
+    font-size: 1.5rem;
+}
+
+}
